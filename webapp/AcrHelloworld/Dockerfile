@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/aspnet:2.2 AS base
+fROM mcr.microsoft.com/dotnet/core/aspnet:2.2 AS base
 # Update <acrName> with the name of your registry
 # Example: uniqueregistryname.azurecr.io
 ENV DOCKER_REGISTRY acrdemo2023232.azurecr.io
